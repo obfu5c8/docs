@@ -1,0 +1,11 @@
+// Obsidian per-device UI state
+/.obsidian/workspace.json
+/.obsidian/workspace-mobile.json
+/.obsidian/workspaces.json
+
+// Graph view state
+/.obsidian/graph.json
+
+// OS junk
+(?d).DS_Store
+(?d)Thumbs.db

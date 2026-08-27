@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Decisions/ADR-001-Documentation location.md",
+                "file": "Docs Synchronisation.md",
                 "mode": "preview",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "ADR-001-Documentation location"
+              "title": "Docs Synchronisation"
             }
           }
         ]
@@ -185,6 +185,8 @@
   },
   "active": "08458a56c8bd1abf",
   "lastOpenFiles": [
+    "Services/Syncthing.md",
+    "Decisions/ADR-001-Documentation location.md",
     "Home Assistant.md",
     "test-file.md",
     "Home.md",
@@ -193,7 +195,6 @@
     "Runbooks/Runbooks.md",
     "Runbooks/Compose stack operations.md",
     "Runbooks",
-    "Decisions/ADR-001-Documentation location.md",
     "Decisions",
     "Infrastructure/Hosts/Firebat.md",
     "Infrastructure/Network/Access and ingress.md",
@@ -210,7 +211,6 @@
     "Services/Ingress.md",
     "Services/Smart home.md",
     "Services/DNS.md",
-    "Services/Syncthing.md",
     "Services/Monitoring.md",
     "Services"
   ]
