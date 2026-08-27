@@ -1,0 +1,5 @@
+# This directory is a Syncthing folder marker.
+# Do not delete.
+
+folderID: home-network
+created: 2026-08-26T07:06:01Z
