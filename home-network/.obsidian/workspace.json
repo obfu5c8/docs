@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "test-file.md",
+                "file": "Docs Synchronisation.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "test-file"
+              "title": "Docs Synchronisation"
             }
           }
         ]
@@ -109,7 +109,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "test-file.md",
+                "file": "Docs Synchronisation.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -128,7 +128,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "test-file.md",
+                "file": "Docs Synchronisation.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
@@ -171,7 +171,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "test-file.md",
+                "file": "Docs Synchronisation.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -186,7 +186,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "test-file.md"
+                "file": "Docs Synchronisation.md"
               },
               "icon": "lucide-info",
               "title": "File properties"
@@ -214,15 +214,17 @@
   },
   "active": "0bb571494e46edb9",
   "lastOpenFiles": [
-    "test-file.sync-conflict-20260827-184327-44NR6A6.md",
     "Home.md",
-    "Runbooks/Certificate renewal.md",
-    "Services/DNS.md",
+    "Docs Synchronisation.md",
     "Home Assistant.md",
     "test-file.md",
+    "test-file.sync-conflict-20260827-184327-44NR6A6.md",
+    "Reference/Repository map.md",
+    "Runbooks/Runbooks.md",
+    "Runbooks/Certificate renewal.md",
+    "Services/DNS.md",
     "Infrastructure/Hosts/Firebat.md",
     "Services/Cook.md",
-    "Reference/Repository map.md",
     "Infrastructure/Storage/QNAP.md",
     "Infrastructure/Network/Access and ingress.md",
     "Decisions/ADR-001-Documentation location.md",
@@ -234,7 +236,6 @@
     "Services/UniFi.md",
     "Services/Ingress.md",
     "Services/Syncthing.md",
-    "Runbooks/Runbooks.md",
     "Decisions",
     "Services",
     "Reference",
