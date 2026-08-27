@@ -214,8 +214,9 @@
   },
   "active": "0bb571494e46edb9",
   "lastOpenFiles": [
-    "Home.md",
+    "Infrastructure/Hosts/Firebat.md",
     "Docs Synchronisation.md",
+    "Home.md",
     "Home Assistant.md",
     "test-file.md",
     "test-file.sync-conflict-20260827-184327-44NR6A6.md",
@@ -223,7 +224,6 @@
     "Runbooks/Runbooks.md",
     "Runbooks/Certificate renewal.md",
     "Services/DNS.md",
-    "Infrastructure/Hosts/Firebat.md",
     "Services/Cook.md",
     "Infrastructure/Storage/QNAP.md",
     "Infrastructure/Network/Access and ingress.md",
