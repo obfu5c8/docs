@@ -18,4 +18,3 @@ The controller publishes the ports needed for its web interface, STUN, access-po
 ## Observability
 
 The controller’s internal HTTPS endpoint is blackbox-probed with certificate verification disabled because it uses an internal/self-signed certificate. Optional UnPoller telemetry requires a dedicated read-only UniFi account and an ignored local credentials file.
-The DDNS updater uses a separate read-only Network account. It logs in through the standalone controller endpoint `/api/login`, then obtains the public WAN IPv4 from `/api/s/default/stat/health`. Its root-only credentials are in `/etc/compose/ddns/unifi.env`; its TLS verification is disabled solely for the controller self-signed local certificate. See [[Runbooks/Dynamic DNS|Dynamic DNS]] before changing this account or its permissions.

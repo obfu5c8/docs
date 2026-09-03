@@ -26,9 +26,7 @@ Firebat is the current always-on home-server host. It runs Docker Compose applic
 | `/srv/compose` | Persistent, non-versioned application data | Back up separately; do not commit it. |
 | `/srv/docs/home-network` | This Obsidian vault | Syncthing-managed Markdown and attachments. |
 | `/etc/compose/monitoring` | Monitoring secrets such as Telegram credentials | Root-owned, mode `0600`; never commit. |
-| `/etc/compose/ddns` | UniFi credentials for the dynamic-DNS updater | Root-owned, mode `0600`; never commit. |
 | `/etc/letsencrypt` | Certificate material and Gandi DNS credential file | Sensitive host state; Nginx mounts certificate files read-only. |
-| `/var/lib/node_exporter/textfile_collector` | Host-generated Prometheus metrics, including DDNS status | Written atomically by host services; mounted read-only into node_exporter. |
 
 ## Service management
 
@@ -42,7 +40,6 @@ The repository’s `make systemd` runs the deployment script: it updates unit sy
 
 - `docker-prune.timer` runs weekly, with up to two hours of randomized delay, and removes unused Docker resources.
 - `letsencrypt-renew.timer` runs daily, also randomized by up to two hours, to renew the wildcard certificate when Certbot considers it due.
-- `ddns.timer` runs every five minutes, with up to 30 seconds of randomized delay, to align `home.obfu5c8.me` with UniFi's WAN IPv4.
 
 ## Observability
 

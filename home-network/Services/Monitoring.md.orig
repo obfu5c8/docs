@@ -2,7 +2,7 @@
 type: service
 host: "[[Infrastructure/Hosts/Firebat|Firebat]]"
 depends_on: ["[[Services/Ingress|Ingress]]"]
-runbooks: ["[[Runbooks/Monitoring response|Monitoring response]]", "[[Runbooks/Dynamic DNS|Dynamic DNS]]"]
+runbooks: ["[[Runbooks/Monitoring response|Monitoring response]]"]
 ---
 
 # Monitoring
@@ -19,7 +19,7 @@ Monitoring provides local metrics, logs, health probes, dashboards, and selected
 | Grafana | Dashboards, metrics, logs, and alert UI | HTTPS through ingress only |
 | Loki | Docker, host-journal, and UniFi logs | 14 days; internal |
 | Alloy | Docker, journal, and UniFi log collector | Internal; read-only Docker socket is sensitive |
-| node_exporter / cAdvisor | Host and container metrics; node_exporter also reads DDNS textfile metrics | Internal |
+| node_exporter / cAdvisor | Host and container metrics | Internal |
 | blackbox_exporter | HTTP, TCP, and TLS checks | Internal |
 | UnPoller | Optional UniFi telemetry | Profile-gated and credentialed |
 
@@ -27,9 +27,7 @@ Monitoring provides local metrics, logs, health probes, dashboards, and selected
 
 Blackbox checks Grafana, Cook, Home Assistant, Zigbee2MQTT, UniFi’s controller HTTPS endpoint, and the Mosquitto TCP endpoint. A TLS probe checks the Grafana public endpoint and drives certificate-expiry alerting. Docker lifecycle metrics identify core-service crash loops.
 
-Grafana provisions VictoriaMetrics and Loki data sources plus host, container, service-health, and Dynamic DNS dashboards. Telegram credentials are injected from `/etc/compose/monitoring/telegram.env`, not from the repository. The documented alert routing attaches Telegram directly to rules marked `severity=sev1`.
-
-The DDNS updater atomically writes node_exporter textfile metrics at `/var/lib/node_exporter/textfile_collector/ddns.prom`. The important metrics are `ddns_last_run_success`, `ddns_last_run_timestamp_seconds`, `ddns_last_success_timestamp_seconds`, and `ddns_record_updated`; its most recently read address is exposed as `ddns_wan_ip_info`. Grafana sends the `DDNS update failed` Sev1 Telegram alert after five minutes of failure or when these metrics are absent. See [[Runbooks/Dynamic DNS|Dynamic DNS]].
+Grafana provisions VictoriaMetrics and Loki data sources plus host, container, and service-health dashboards. Telegram credentials are injected from `/etc/compose/monitoring/telegram.env`, not from the repository. The documented alert routing attaches Telegram directly to rules marked `severity=sev1`.
 
 ## Limits
 

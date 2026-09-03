@@ -1,0 +1,229 @@
+{
+  "main": {
+    "id": "ad11342bc33cdaaf",
+    "type": "split",
+    "children": [
+      {
+        "id": "987b35d5cd418e6b",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "218b47a10108efd7",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "93dfd77ecb568147",
+    "type": "split",
+    "children": [
+      {
+        "id": "4797cb7260f2fd2f",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "2b238a137331ff08",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "ced9c77a0554223f",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "938fe9ae364c8360",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "aa01f0259e5fc77e",
+    "type": "split",
+    "children": [
+      {
+        "id": "8ff897a09915a916",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "c71f09a05299cf27",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks"
+            }
+          },
+          {
+            "id": "ad8dda5c3205c105",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links"
+            }
+          },
+          {
+            "id": "0a1280cb5d465bfa",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "73c40ddc4719e780",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
+            }
+          },
+          {
+            "id": "004f0a96d1d6224e",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline"
+            }
+          },
+          {
+            "id": "2e3d2a2d4dd67f72",
+            "type": "leaf",
+            "state": {
+              "type": "file-properties",
+              "state": {},
+              "icon": "lucide-info",
+              "title": "File properties"
+            }
+          }
+        ],
+        "currentTab": 2
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false,
+      "markdown-importer:Open format converter": false
+    }
+  },
+  "active": "218b47a10108efd7",
+  "lastOpenFiles": [
+    "Docs Synchronisation.md",
+    "Infrastructure/Hosts/Firebat.md",
+    "Home.md",
+    "Home Assistant.md",
+    "test-file.md",
+    "test-file.sync-conflict-20260827-184327-44NR6A6.md",
+    "Reference/Repository map.md",
+    "Runbooks/Runbooks.md",
+    "Runbooks/Certificate renewal.md",
+    "Services/DNS.md",
+    "Services/Cook.md",
+    "Infrastructure/Storage/QNAP.md",
+    "Infrastructure/Network/Access and ingress.md",
+    "Decisions/ADR-001-Documentation location.md",
+    "Runbooks/Monitoring response.md",
+    "Runbooks/Compose stack operations.md",
+    "Services/Services.md",
+    "Services/Smart home.md",
+    "Services/Monitoring.md",
+    "Services/UniFi.md",
+    "Services/Ingress.md",
+    "Services/Syncthing.md",
+    "Decisions",
+    "Services",
+    "Reference",
+    "Infrastructure/Storage",
+    "Infrastructure/Network",
+    "Infrastructure/Hosts",
+    "Infrastructure",
+    "Runbooks"
+  ]
+}
